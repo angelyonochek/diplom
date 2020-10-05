@@ -1,0 +1,60 @@
+.container-fluid{
+    background-color:#fcdb00;
+}
+
+.logo{
+    margin:auto;
+}
+.btn{
+    border-radius:0;
+    border: 2px solid #000000;
+    
+
+}
+#text{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.massenger{
+    padding-left: 190px;
+}
+.start{
+    padding-top: 304px;
+    margin: auto;
+}
+.header{
+    padding-top: 72px;
+    
+}
+.button{
+    padding-top: 47px;
+    margin: auto;
+}
+.arrow{
+    padding-top: 213px;
+    padding-bottom: 63px;
+    width: 18px;
+    padding-left: 561px;
+}
+.main1{
+text-align: center;
+padding-top:137px;
+}
+.r1{
+    padding-bottom: 103px;
+}
+
+.r2{
+    padding-bottom: 103px;
+}
+.fas fa-mobile-alt{
+    width: 40px;
+height: 48px;
+}
+.r3{
+    padding-bottom: 276px;
+}
+
+
