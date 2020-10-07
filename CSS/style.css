@@ -1,14 +1,25 @@
-.container-fluid{
+.section1{
     background-color:#fcdb00;
 }
-
+.header{
+    padding-top: 72px;
+}
 .logo{
+    display: flex;
     margin:auto;
+    justify-content:center ;
+}
+#name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    color: #222222;
+    font-size: 35px;
+    padding-left: 11px;
 }
 .btn{
     border-radius:0;
     border: 2px solid #000000;
-    
+
 
 }
 #text{
@@ -19,19 +30,47 @@ h1{
 }
 .massenger{
     padding-left: 190px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
 }
 .start{
     padding-top: 304px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+
 }
-.header{
-    padding-top: 72px;
-    
+h1{
+color: #222222;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 57px;
+font-weight: 700;
+line-height: 21.25px;
+}
+#text{
+    width: 562px;
+    text-align: center;
+    color: #222222;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.34px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 25px;
 }
 .button{
     padding-top: 47px;
     margin: auto;
-}
+    color: #010101;
+    font-family: "Source Sans Pro";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28.34px;
+    text-transform: uppercase;
+    }
 .arrow{
     padding-top: 213px;
     padding-bottom: 63px;
@@ -41,6 +80,16 @@ h1{
 .main1{
 text-align: center;
 padding-top:137px;
+}
+#text2{
+    color: #898989;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.34px;
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
 }
 .r1{
     padding-bottom: 103px;
@@ -53,8 +102,52 @@ padding-top:137px;
     width: 40px;
 height: 48px;
 }
+#features{
+color: #898989;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 23.62px;
+}
 .r3{
     padding-bottom: 276px;
 }
-
-
+.r4{
+    text-align: center;
+    padding-bottom: 90px;
+}
+.prais{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.r5{
+    padding-top: 31px;
+}
+.r6{
+    padding-top: 30px;
+}
+.r7{
+    padding-top: 52px;
+}
+.r8{
+    padding-top: 10px;
+}
+.r9{
+    padding-top: 10px;
+}
+.r10{
+    padding-top: 44px;
+}
+.r11{
+    text-align: center;
+    padding-top: 230px;
+}
+.r12{
+    text-align: center;
+    padding-top: 81px;
+}
+.r13{
+    text-align: center;
+    padding-top: 77px;
+}
