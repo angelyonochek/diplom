@@ -1,3 +1,4 @@
+
 .section1{
     background-color:#fcdb00;
 }
@@ -6,7 +7,7 @@
 }
 .logo{
     display: flex;
-    margin:auto;
+
     justify-content:center ;
 }
 #name{
@@ -19,8 +20,6 @@
 .btn{
     border-radius:0;
     border: 2px solid #000000;
-
-
 }
 #text{
     text-align: center;
@@ -33,6 +32,13 @@ h1{
     display: flex;
     justify-content: right;
     justify-content: space-between;
+    
+}
+.massenger1{
+    color:black;
+}
+a:hover{
+    color:black;
 }
 .start{
     padding-top: 304px;
@@ -74,9 +80,13 @@ line-height: 21.25px;
 .arrow{
     padding-top: 213px;
     padding-bottom: 63px;
-    width: 18px;
-    padding-left: 561px;
+    
 }
+#skroll{
+    text-decoration: none;
+    color: black;
+}
+
 .main1{
 text-align: center;
 padding-top:137px;
@@ -97,6 +107,7 @@ padding-top:137px;
 
 .r2{
     padding-bottom: 103px;
+    text-align: left;
 }
 .fas fa-mobile-alt{
     width: 40px;
@@ -109,8 +120,10 @@ font-size: 19px;
 font-weight: 400;
 line-height: 23.62px;
 }
+
 .r3{
     padding-bottom: 276px;
+    text-align: left;
 }
 .r4{
     text-align: center;
@@ -161,7 +174,7 @@ line-height: 23.62px;
     text-align: center;
 }
 #team{
-    width: 151px;
+    
 }
 .massenger2{
     padding-left:35%;
@@ -319,4 +332,173 @@ line-height: normal;
 }
 .r28{
     padding-top: 135px;
+}
+.sub-menu 
+{ 
+    display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+    display: block; 
+} 
+.contact{
+    color:#ffffff;
+    text-decoration: none;
+}
+.contact:hover{
+color: #898989;
+}
+.psevdomas:hover{
+    background-color:black;
+    color: white;
+}
+.psevdomas{
+    color:black;
+}
+#toggle {
+    display: block;
+    width: 28px;
+    height: 30px;
+    margin: 15px auto 10px;
+}
+
+#toggle span:after,
+#toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+}
+#toggle span:after{
+    top: 9px;
+}
+#toggle span {
+    position: relative;
+    display: block;
+}
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+  /* on activation */
+#toggle.on span {
+    background-color: transparent;
+}
+#toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#menu {
+    position: relative;
+    color: #000;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    /* just for this demo */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s;
+}
+#menu:after {
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+}
+ul, li, li .burger {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+li .burger {
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    transition: all .2s;
+}
+li .burger:hover,
+li .burger:focus {
+    background: #fcdb00;
+    color: #000;
+}
+.arrow {
+  text-align: center;
+  color:black;
+}
+.arrow1{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.text7{
+    color:#898989;
+    font-family: "Source Sans Pro";
+font-size: 19px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 23.62px;
+text-align: center;
+/* Text style for "From Wỏdpr" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.text9{
+    font-family: "Source Sans Pro";
+font-size: 38px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 28.34px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "F, REE" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
